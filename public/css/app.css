@@ -1,0 +1,34 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(161, 117, 117, 0.1);
+}
+
+.card-header {
+    background-color: #3490dc;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #3490dc;
+    border-color: #3490dc;
+}
+
+.btn-primary:hover {
+    background-color: #2779bd;
+    border-color: #2779bd;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    display: block;
+    margin-top: .25rem;
+    font-size: 80%;
+}
